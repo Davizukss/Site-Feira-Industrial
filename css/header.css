@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * {
 	  font-family: 'Poppins', sans-serif;
 }
@@ -127,10 +127,6 @@ a:hover {
   .spanh{
     opacity: 0;
   }
-=======
-* {
-	  font-family: 'Poppins', sans-serif;
-}
 a {
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -256,5 +252,5 @@ a:hover {
   .spanh{
     opacity: 0;
   }
->>>>>>> bff5846a093e5a20261d458e9e71a92da030bec3
+}
 }
