@@ -69,7 +69,7 @@ input{
 .inicio h3{
     padding: 100px 0 10px 0;
     text-align: center;
-    color: green;
+    color: #e18aaa;
     font-family: 'Rock Salt', 'cursive';
 }
 .inicio h1{
@@ -115,7 +115,7 @@ main {
     padding-left: 20px;
     font-size: 1.25em;
     width: 90%;
-    text-align: justify;
+    text-align: left;
 }
 
 .cover-container figure img,
@@ -131,36 +131,34 @@ ul li{
 
     .cover-container figure img,
     .text-container figure img {
+        margin-top: -130px;
         width: 35%;
         right: 2%;
         visibility: visible;
         position: absolute;
         display: block;
         float: right;
-        max-height: 500px;
+        transform: scale(0.6);
     }
 
     .text-container p {
         width: 30%
     }
-    .cover-container,
-    .text-container {
-        margin-top: 13%;
-        padding: 30px;
+    .text-container, .cover-container{
+        margin-top: 10%;
         background: #e7e7e7;
     }
 
     .cover-container p,
     .text-container p {
-
         padding: 50px;
-        font-size: 1.75em;
+        font-size: 1.5em;
         width: 50%;
     }
 
     .cover-container h1 {
         padding: 20px;
-        font-size: 2em;
+        font-size: 3em;
     }
     .inicio h3{
         padding: 150px 0 50px 30px;
@@ -170,7 +168,7 @@ ul li{
     }
     .inicio h1{
         color: rgb(41, 41, 41);
-        font-size: 3.8em;
+        font-size: 5em;
         margin-top: -4%;
         padding: 20px;
         text-align: justify;
@@ -212,9 +210,8 @@ ul li{
         background-color: green;
         border: 2px solid green;
         position: absolute;
-        left: 39.5%;
-        margin-top: -32%;
-        float: right;
+        margin-top: -55vh;
+        left: 48%;
         border-radius: 20px;
         width: 780px;
         height: 500px;
@@ -254,17 +251,6 @@ ul li{
         cursor: pointer;
         transition: 1s;
     }
-    .pezinhoMonitor{
-        position: relative;
-        float: right;
-        background-color: green;
-        border: 2px solid green;
-        left: -17%;
-        margin-top: 7%;
-        border-radius: 20px;
-        width: 300px;
-        height: 50px;
-    }
     .navM:not(:last-child){
         margin-right: 40px ;
     }
@@ -294,5 +280,9 @@ ul li{
     }
     #radio8:checked ~ .first{
         margin-left: -703%;
+    }
+    .lista{
+        margin-top: -7%;
+        margin-left: 60%;
     }
 }
