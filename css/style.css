@@ -101,7 +101,7 @@
 }
 
 
-.swiper{
+.swiper {
     border-radius: 10px;
     margin-top: -38%;
     margin-right: 25%;
@@ -111,19 +111,122 @@
     height: 400px;
 
 }
-.swiper img{
+
+.swiper img {
     overflow: hidden;
     width: 700px;
     height: 400px;
 }
+
 .swiper-button-next,
-.swiper-button-prev
-{
-    color: #141414 ;
+.swiper-button-prev {
+    color: #141414;
 }
-#Logistica{
+
+#Logistica {
     margin-top: -20%;
 }
-.card span{
+
+.card span {
     font-size: 0.8em;
+}
+
+.p2 {
+    z-index: -1;
+    height: 100.5vh;
+    max-width: 100%;
+    width: 100%;
+    background-color: #191B31;
+}
+
+.p2 p {
+    background-image: linear-gradient(to bottom, #ffffff, #8B8DA2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    display: inline-block;
+    z-index: -2;
+    text-align: center;
+    padding-top: 15%;
+    padding-left: 5%;
+    font-size: 5rem;
+    margin-top: -25%;
+    padding-left: 23%;
+}
+
+.p2 img {
+    width: 300px;
+    margin-right: 40%;
+    margin-top: -13%;
+    padding-top: 15%;
+    float: right;
+}
+.h1Mob,
+.h1Mob2{
+    display: none;
+}
+
+@media (max-width:760px) {
+
+    .swiper {
+        display: none;
+    }
+
+    .card {
+        position: relative;
+        top: -55%;
+        width: 100%;
+        margin-left: -2%;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        padding-right: 2%;
+    }
+
+    .inicio img {
+        padding-left: 2%;
+        z-index: 1;
+    }
+
+    .inicio p {
+        margin-top: 10%;
+        font-size: 4rem;
+    }
+    .p2 p{
+        z-index: 99;
+        top: -30%;
+        padding-right: 21%;
+        position: relative;
+        font-size: 2rem;
+    }
+    .p2 {
+        height: 150vh;
+        width: 100%;
+        background-color: #191B31;
+    }
+    .p2 img{
+        left: 17%;
+        margin-top: -90%;
+        position: relative;
+        max-width: 200px;
+    }
+    .h1Mob{
+        display: block;
+        color: #8B8DA2;
+        z-index: 9;
+        padding-left: 33%;
+        margin-top: -68%;
+        position: absolute;
+    }
+    .h1Mob2{
+        display: block;
+        color: #8B8DA2;
+        z-index: 9;
+        padding-left: 25%;
+        margin-top: -102%;
+        margin-bottom: 20%;
+        position: absolute;
+    }
+
 }
