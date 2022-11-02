@@ -1,15 +1,13 @@
 footer{
     color: #fff;
-    margin-top: 20%;
     box-sizing: border-box;
     padding: 20px;
     width: 100%;
     text-align: center;
-    background-color: green;
+    background-color: #141414;
 }
-footer ul li{
-    margin: auto;
-    text-align: center;
+footer p{
+    text-align: left;
     padding: 8px;
     display: flex;
 }

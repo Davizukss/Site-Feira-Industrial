@@ -11,5 +11,15 @@ function toggleMenu(event) {
     event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
   }
 }
+var header = document.getElementById('header');
+window.addEventListener('scroll', function () {
+  if (window.scrollY > 1){
+    header.classList.add('black');
+  }
+  else {
+    header.classList.remove('black');
+}
+});
+
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
